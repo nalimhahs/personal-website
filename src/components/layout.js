@@ -11,6 +11,7 @@ import './layout.css'
 
 const Content = styled.div`
   ${tw`px-32 py-8 font-sans`};
+  overflow-x: none;
 `
 
 const Layout = ({ children }) => (

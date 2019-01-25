@@ -7,7 +7,7 @@ const NavbarWrapper = styled.nav`
 `
 
 const Logo = styled.div`
-  ${tw` text-yellow `}
+  ${tw`text-yellow`}
 `
 
 // eslint-disable-next-line react/prefer-stateless-function
