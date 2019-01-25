@@ -98,9 +98,9 @@ class Main extends React.Component {
       <Wrapper> 
         <Line/>                
         <ContentWrapper>
-          <Subtitle>Magna duis nisi deserunt eiusmod</Subtitle> 
+          <Subtitle>I make things for the web</Subtitle> 
           <SubContent>
-            Nostrud exercitation consectetur ipsum excepteur labore irure nulla aute qui minim consectetur nostrud aliqua.
+            This site is still under construction... Check back later for more :-)
           </SubContent>
         </ContentWrapper>
       </Wrapper>
