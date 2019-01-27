@@ -60,7 +60,7 @@ const Pre = styled.div`
 `
 
 const Name = styled.div`
-  ${tw`text-s3 sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl`}
+  ${tw`text-s2 sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl`}
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
