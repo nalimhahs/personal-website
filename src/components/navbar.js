@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import Menu from './menu'
 
 const NavbarWrapper = styled.nav`
-  ${tw`flex justify-between bg-transparent w-100 h-24 py-6 px-12`}
+  ${tw`flex justify-between bg-transparent w-100 py-6 px-12`}
+  height: 15vh;
 `
 
 const Logo = styled.div`
