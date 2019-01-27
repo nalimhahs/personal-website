@@ -10,8 +10,7 @@ import Navbar from './navbar'
 import './layout.css'
 
 const Content = styled.div`
-  ${tw`px-32 py-8 font-sans`};
-  overflow-x: none;
+  ${tw`font-sans lg:px-32 xl:px-32 px-0`};
 `
 
 const Layout = ({ children }) => (
@@ -37,6 +36,18 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Particles params = {{
+          "particles": {
+              "number": {
+                "value": 35,
+                "density": {
+                  "enable": true,
+                  "value_area": 800
+                }
+              },
+              "move": {
+                "speed": 0.8,
+              },
+          },
           "interactivity": {
             "detect_on": "window",
             "events": {
