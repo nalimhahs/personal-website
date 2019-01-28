@@ -9,7 +9,7 @@ const MainWrapper = styled.div`
   margin: 0;
   padding-top: 3%;
   padding-right: 2%;
-  margin-bottom: 16%
+  margin-bottom: 15%
 `
 
 const Wrapper = styled.div`
@@ -33,7 +33,7 @@ const ContentWrapper = styled.div`
 `
 const Box = styled.div`
   position: relative;
-  ${tw`w-3/4 sm:w-2/3 md:w-1/2 lg:w-3/5 xl:w-1/2`}
+  ${tw`w-4/5 sm:w-2/3 md:w-1/2 lg:w-3/5 xl:w-1/2`}
   height: 165px;
   margin-left: 0;
   background: #F2C94C;
