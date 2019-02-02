@@ -30,7 +30,8 @@ const Line = styled.div`
   position: absolute;
   height: 41%;
   right: 15%;
-  bottom: 0%;;
+  bottom: 0%;
+  z-index: -1;
 `
 
 const ContentWrapper = styled.div`
@@ -48,7 +49,8 @@ const Box = styled.div`
   padding: 0;
   -webkit-transform: translateX(-15px); 
   -moz-transform: translateX(-15px); 
-  transform: translateX(-15px);  
+  transform: translateX(-15px); 
+  z-index: -1; 
 `
 
 const BoxWrapper = styled.div`
