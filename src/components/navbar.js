@@ -4,6 +4,9 @@ import Menu from './menu'
 
 const NavbarWrapper = styled.header`
   /* ${tw`flex justify-between bg-transparent w-100 py-6 px-12`} */
+
+  position: fixed;
+
   height: 15vh;
   width: 100vw;
   display: flex;
@@ -12,7 +15,7 @@ const NavbarWrapper = styled.header`
   -webkit-box-align: center;
   align-items: center;
   top: 0px;
-  padding: 0px 50px;
+  padding: 0px 40px;
   box-sizing: border-box;
 `
 

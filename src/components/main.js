@@ -6,11 +6,16 @@ import 'typeface-nunito-sans'
 import 'typeface-oldenburg'
 
 const MainWrapper = styled.div`
-  margin: 0;
-  width: 100%;
-  padding-top: 3%;
-  padding-right: 2%;
-  margin-bottom: 15%
+  ${tw`font-sans lg:px-32 xl:px-32 px-0`};
+  max-width: 1500px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0px auto;
 `
 
 const Wrapper = styled.div`
@@ -37,6 +42,7 @@ const Box = styled.div`
   position: relative;
   ${tw`w-5/6 sm:w-2/3 md:w-1/2 lg:w-3/5 xl:w-1/2`}
   height: 165px;
+  max-width: 550px;
   margin-left: 0;
   background: #F2C94C;
   padding: 0;
