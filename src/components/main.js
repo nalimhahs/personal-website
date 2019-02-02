@@ -7,6 +7,7 @@ import 'typeface-oldenburg'
 
 const MainWrapper = styled.div`
   margin: 0;
+  width: 100%;
   padding-top: 3%;
   padding-right: 2%;
   margin-bottom: 15%
@@ -30,10 +31,11 @@ const Line = styled.div`
 const ContentWrapper = styled.div`
   padding-left: 3.7%;
   padding-top: 1%;
+  padding-right: 5%;
 `
 const Box = styled.div`
   position: relative;
-  ${tw`w-4/5 sm:w-2/3 md:w-1/2 lg:w-3/5 xl:w-1/2`}
+  ${tw`w-5/6 sm:w-2/3 md:w-1/2 lg:w-3/5 xl:w-1/2`}
   height: 165px;
   margin-left: 0;
   background: #F2C94C;
@@ -60,7 +62,7 @@ const Pre = styled.div`
 `
 
 const Name = styled.div`
-  ${tw`text-s2 sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl`}
+  ${tw`text-s15 sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl`}
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
@@ -77,6 +79,7 @@ const Subtitle = styled.div`
   font-weight: 650;
   line-height: normal;
   color: #E0E0E0;
+  margin-right: 3%;
 `
 
 const SubContent = styled.div`
