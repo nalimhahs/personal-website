@@ -36,7 +36,11 @@ const Box = styled.div`
 `
 
 const IconWrapper = styled.div`
-  ${tw`fill-current text-yellow `};
+  ${tw`fill-current text-yellow mt-1`};
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
   z-index: 1000;
 `
 
@@ -85,7 +89,7 @@ class Menu extends React.Component {
       <>
         {!this.state.open && 
           <IconWrapper>
-            <svg style= {tw`h-16 w-16 mt-1`} xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" onClick={this.menuOpener}>
+            <svg style= {tw`h-12 w-12`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" onClick={this.menuOpener}>
               <path d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"/>
             </svg>
           </IconWrapper>
@@ -93,7 +97,7 @@ class Menu extends React.Component {
         {this.state.open &&
           <>
             <IconWrapper>
-              <svg style= {tw`h-12 w-12 pr-4`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" onClick={this.menuCloser}>
+              <svg style= {tw`h-12 w-12`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" onClick={this.menuCloser}>
                <path d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/>
               </svg>
             </IconWrapper>

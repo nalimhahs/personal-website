@@ -10,7 +10,9 @@ import Navbar from './navbar'
 import './layout.css'
 
 const Content = styled.div`
-  ${tw`font-sans lg:px-32 xl:px-32 px-0`};
+  width: 100%;
+  height: 100vw;
+  margin: 0px auto;
 `
 
 const Layout = ({ children }) => (
